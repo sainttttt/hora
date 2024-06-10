@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from www.lobvm.com/how-to/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Jun 2024 22:10:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.126.1">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <meta name="robots" content="INDEX, FOLLOW">
+  <script async defer data-domain="lobvm.com" src="https://stats.yanke.io/js/plausible.js"></script>
+
+
+  
+  <script>
+    console.log("Loaded%20settings.html")
+
+    settingDefaults = {
+      'theme': 'light',
+      'panel-visibility' : 'false',
+    }
+
+    settingPrefix="lobvm-setting-"
+
+    
+    function setSetting(key, value) {
+      localStorage.setItem(settingPrefix + key, value);
+    }
+
+    
+    function getSetting(key) {
+
+      value = localStorage.getItem(settingPrefix + key);
+
+      if (value === null) {
+        console.log("Falling back to debug value for key - " + key)
+        return settingDefaults[key]
+      }
+
+      return value
+
+    }
+
+    function setTheme(theme) {
+      console.log("Setting theme to " + theme)
+      target = document.documentElement.classList
+
+      if(theme == "light") {
+        target.remove('dark')
+        setSetting("theme", "light")
+      } else if(theme == "dark") {
+        target.add('dark')
+        setSetting("theme", "dark")
+      } else {
+        console.error("Invalid theme: " + theme)
+      }
+    }
+
+    
+    function settingButtonHandler() {
+      var panel = document.getElementById("settingpanel");
+
+      if(getSetting("panel-visibility") == "true") {
+        setSetting("panel-visibility", "false")
+        panel.classList.add("hidden")
+      } else if(getSetting("panel-visibility") == "false") {
+        setSetting("panel-visibility", "true")
+        panel.classList.remove("hidden")
+      }
+
+      console.log("Toggling settings panel")
+
+    }
+
+    
+    function settingHandler(group, value) {
+      
+      if (group == "theme") {
+        setTheme(value)
+      } else {
+        console.error("Invalid group: " + group)
+      }
+    }
+
+    
+    if (localStorage['lobvm-setting-theme'] === 'dark' || (!('lobvm-setting-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+      console.log("Loading dark theme")
+    } else {
+      document.documentElement.classList.remove('dark')
+      console.log("Loading light theme")
+    }
+
+    
+  </script>
+
+  
+  <title>How To Pray the Little Office &middot; Little Office of the Blessed Virgin Mary</title>
+
+  <meta name="description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+
+  
+  <meta property="og:url" content="https://www.lobvm.com/how-to/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+  <meta property="og:image" content="https://www.lobvm.com/img/og.jpg">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="https://www.lobvm.com/">
+  <meta property="twitter:url" content="https://www.lobvm.com/how-to/">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+  <meta name="twitter:image" content="https://www.lobvm.com/img/og.jpg">
+
+  
+  <link rel="canonical" href="index.html">
+
+  
+  
+
+
+  
+  <link rel="stylesheet" href="../css/main.min.f1fcb63827354baf0af9a962fb80ff25742a228c1f6333ef7083ba2ed362339a.css" integrity="sha256-8fy2OCc1S68K+ali+4D/JXQqIowfYzPvcIO6LtNiM5o="/>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&amp;family=Spartan:wght@600&amp;display=swap" rel="stylesheet">
+
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../img/favicons/site.webmanifest">
+  <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#035eff">
+  <link rel="shortcut icon" href="../img/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="LOBVM">
+  <meta name="application-name" content="LOBVM">
+  <meta name="msapplication-TileColor" content="#ffc40b">
+  <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  
+</head>
+
+  <body>
+    <main class="dark:bg-gray-900 dark:text-white">
+    <div class="bg-cover bg-top md:invisible bg-opacity-75" style="background-image:linear-gradient(rgba(55, 65, 81, 0.7), rgba(55, 65, 81, 0.7)), url('../img/banner.jpg') ">
+  <h1 class="text-6xl pb-8 pt-12 font-serif text-center bg-clip-text md:visible tracking-tighter md:tracking-tight">
+    <a href="../index.html">
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400 text-4xl md:text-6xl">Little Office of the </span>
+      <br />
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400">Blessed Virgin </span>
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400 hidden md:inline">Mary</span>
+    </a>
+  </h1>
+</div>
+
+<nav class="text-center bg-primary-700 dark:bg-primary-600 text-white font-bold md:space-x-8 p-4 text-2xl md:text-3xl font-sans noprint">
+    
+    
+      <a href="../introduction/index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">Introduction</a>
+    
+      <a href="../rubrics/index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">Rubrics</a>
+    
+      <a href="index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">How&nbsp;To&nbsp;Pray</a>
+    
+
+    <span title="Settings" alt="Toggle settings menu" class="hover:underline cursor-pointer" onclick="settingButtonHandler()">
+        Settings
+    </span>
+</nav>
+<div class="settings-dropdown border-1 text-center p-1 mx-10 my-5 noprint hidden" id="settingpanel">
+  <em>For more settings, go to one of the hours and then click settings.</em><div class="settings-block" class="">
+    Theme
+    <br class="md:hidden" />
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingHandler('theme','light')">
+      Light <br />
+    </button>
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingHandler('theme','dark')">
+      Dark <br />
+    </button>
+  </div>
+
+  <div class="settings-block" class="">
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingButtonHandler()">
+      Close Settings Window<br />
+    </button>
+  </div>
+
+</div>
+
+<div class="bg-secondary-200 w-full h-24 hidden md:block">
+    <img class="object-cover w-full h-24" src="../img/banner.jpg" />
+</div>
+
+
+
+<div class="leading-6 p-4 mt-4 text-lg font-sans grid md:grid-cols-5 lg:grid-cols-4">
+  <div class="md:col-start-2 md:col-span-3 lg:col-span-2 lg:col-start-2">
+  <h1 class="pb-6 text-3xl text-primary-700 dark:text-secondary-200 font-serif">How To Pray the Little Office</h1>
+  <article class="leading-normal primary-content-block continuous-paragraph">
+  <p><em>This page is a simple guide for praying the little office. For the full set of rubrics, see the <a href="../rubrics/index.html">Rubrics page</a> here.</em></p>
+<h2 id="what-is-the-little-office">What is the Little Office</h2>
+<p>The <em>Little Office</em> is one of the many liturgical prayers of the church, but one more simple, more suited to the laity
+and religious communities which are engaged in more active apostolate, due not only to the length, but also the
+simplicity.</p>
+<p>For a time, the little office was obligatory for clerics to say after the Divine Office, this obligation was later
+removed.</p>
+<p>Unlike the <em>Divine Office</em> from the Roman Breviary, which synchronizes itself with the complex liturgical calendar, and
+must take into account feast day rankings, overlapping octaves, and multiple commemorations, the little office itself
+maintains a relatively steady cycle, with different offices for Advent, Christmastide, and the rest of the year. Within
+those seasonal divisons, it is otherwise unchanging, and with only a single day of hours instead of a weekly cycle of
+hours that the traditional Roman Office has.</p>
+<p>This daily repetition not only leads to rubrical simplicity, but also lends itself memorization, and smaller, cheaper
+volumes, all of which make it even more accessable for lay Catholics as a daily devotion which unites them to the
+church&rsquo;s liturgical prayer throughout time and space.</p>
+<p>Finally, even partial usage of the Little Office can be meritorious, especially for the busy lay man. If praying the
+entire little office seems too much, consider only the major hours of Lauds and Vespers, or even begin simply with just
+compline.</p>
+<p>For more information on this topic, consider reading the <a href="../introduction/index.html">Introduction</a> section of the 1915 Benziger
+Brothers edition of the Little Office, which has been transcribed here.</p>
+<h2 id="purchase-books">Purchase Books</h2>
+<p>While we hope this website serves as a useful resource for praying the <em>Little Office</em>, it can also be adventageous
+to own a phyiscal book dedicated to the purpose. Below are a few listings of locations it can be purchased.</p>
+<p>All of the editions listed below are new printings, but additionally, old printings can be found online in places
+like eBay.</p>
+<ul>
+<li><a href="https://romanseraphicbooks.com/product/littleoffice/">Roman Seraphic Books</a> (1910 Roman)</li>
+<li><a href="https://libers-com.3dcartstores.com/The-Little-Office-of-the-Blessed-Virgin-Mary_p_2395.html">St. Bonaventure Publications</a> (1910 Roman)</li>
+<li><a href="https://angeluspress.org/products/little-office-of-the-blessed-virgin-mary">Angelus Press</a> (1962 Roman)</li>
+<li><a href="https://www.baroniuspress.com/book.php?wid=56&amp;bid=47#tab=tab-1">Baronius Press</a> (1962 Roman)</li>
+</ul>
+<h2 id="the-three-offices">The Three Offices</h2>
+<p>There are three Offices, incrementally numbered, for time throughout the year.</p>
+<ul>
+<li>Office 1 begins with Matins on Febuary 3rd.</li>
+<li>Office 2 begins with First Vespers on the Saturday before the First Sunday of Advent.</li>
+<li>Office 3 begins with First Vespers on Christmas Eve.</li>
+</ul>
+<h2 id="bows-and-reverences">Bows and Reverences</h2>
+<p>During every <em>Glory Be</em> (<em>Gloria Patri</em>), all bow. Additionally, all bow at the name of Jesus, and during the last strophe of the hymn.</p>
+<p>Wherever the symbol &ldquo;✠&rdquo; is indicated, the sign of the cross is made in the usual way, unless otherwise indicated.</p>
+<h2 id="hours-of-the-day">Hours of the Day</h2>
+<p>In a monastic context, the hours would typically be prayed at their traditional times, beginning with the night and early
+morning. Outside of a monastic context, there has always been some degree of flexibility in the scheduling of the hours,
+but the schedule handed on by tradition continues to guide the schedule with which it is incorporated into our lives.</p>
+<h3 id="matins">Matins</h3>
+<p><em>Matins</em>, would be prayed in the middle of the night, typically about 2am in a monastic context,
+or for secular clergy and laymen, either just before Lauds or anticipated the previous evening after compline.</p>
+<h3 id="lauds">Lauds</h3>
+<p><em>Lauds</em> would typically be prayed at dawn, or shortly after rising. Monastically, this would often be around 5am,
+depending on the season of the year. <em>Lauds</em>, along with <em>Vespers</em>, form the two major hours which would often be
+celebrated publicly, even in locations which don&rsquo;t celebrate the full office in public.</p>
+<h3 id="prime">Prime</h3>
+<p><em>Prime</em> is the first of the 4 minor hours, and would be prayed around 6am.</p>
+<h3 id="terce">Terce</h3>
+<p><em>Terce</em> is the second of the 4 minor hours, and would be prayed around 9am.</p>
+<h3 id="sext">Sext</h3>
+<p><em>Sext</em> is the third of the 4 minor hours, and would be prayed around noon.</p>
+<h3 id="none">None</h3>
+<p><em>None</em> is the fourth of the 4 minor hours, and would be prayed around 3pm.</p>
+<h3 id="vespers">Vespers</h3>
+<p><em>Vespers</em> as the major office of the evening, occurs in the afternoon, often around 6pm in a monastic context, but
+frequently earlier in other contexts. <em>Vespers</em> are also the office most frequently celebrated in public, to commemorate
+feasts and their vigils in the public life of a parish.</p>
+<h3 id="compline">Compline</h3>
+<p>Finally, <em>compline</em> closes the liturgical day, typically prayed shortly before retiring for the evening, often around 7pm.</p>
+
+
+
+  <div class="pt-1">&nbsp;</div>
+  <hr class="border-0 bg-gray-500 text-gray-500 h-px">
+  <div class="pb-1">&nbsp;</div>
+
+  <h2 class="pt-4 pb-6 text-3xl text-primary-700 dark:text-secondary-200 font-serif">Sources</h2>
+
+  This page was based on the following original source(s):
+
+  <ul>
+
+    <li class="underline italic pt-3 list-decimal list-inside dark:text-primary-300"><a href="https://archive.org/details/littleofficeofbl00newy/page/n9/mode/2up" target="_blank">1915 Benziger Brothers Edition of the LOBVM</a></li>
+
+    <li class="underline italic pt-3 list-decimal list-inside dark:text-primary-300"><a href="https://www.baroniuspress.com/book.php?wid=56&amp;bid=47#tab=tab-1" target="_blank">Introduction from the Baronius Press edition of LOBVM</a></li>
+
+  </ul>
+
+
+  </article>
+  </div>
+</div>
+    </main>
+<div class="bg-primary-700 text-white dark:bg-primary-600 text-center p-3">
+    <p>Other Little Offices</p>
+    
+      <a href="https://www.littleofficeofthesacredheartofjesus.com/" title="" alt="" class="hover:underline md:mx-0 mx-4 noprint font-bold md:space-x-8 p-4 text-2xl md:text-3xl">Little Office of the Sacred Heart</a>
+    
+      <a href="https://www.littleofficeofdivinewrath.com/" title="" alt="" class="hover:underline md:mx-0 mx-4 noprint font-bold md:space-x-8 p-4 text-2xl md:text-3xl">Little Office of Divine Wrath</a>
+    
+</div>
+
+<div class="bg-primary-700 text-white dark:bg-primary-600 text-center p-3">
+
+    
+    <p class="text-lg"><strong>© 2021 by LOBVM.com</strong></p>
+    <p class="text-sm">(except for texts already in the public domain)</p>
+
+</div>
+
+  </body>
+
+<!-- Mirrored from www.lobvm.com/how-to/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Jun 2024 22:10:47 GMT -->
+</html>

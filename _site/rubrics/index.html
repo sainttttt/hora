@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from www.lobvm.com/rubrics/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Jun 2024 22:10:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.126.1">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <meta name="robots" content="INDEX, FOLLOW">
+  <script async defer data-domain="lobvm.com" src="https://stats.yanke.io/js/plausible.js"></script>
+
+
+  
+  <script>
+    console.log("Loaded%20settings.html")
+
+    settingDefaults = {
+      'theme': 'light',
+      'panel-visibility' : 'false',
+    }
+
+    settingPrefix="lobvm-setting-"
+
+    
+    function setSetting(key, value) {
+      localStorage.setItem(settingPrefix + key, value);
+    }
+
+    
+    function getSetting(key) {
+
+      value = localStorage.getItem(settingPrefix + key);
+
+      if (value === null) {
+        console.log("Falling back to debug value for key - " + key)
+        return settingDefaults[key]
+      }
+
+      return value
+
+    }
+
+    function setTheme(theme) {
+      console.log("Setting theme to " + theme)
+      target = document.documentElement.classList
+
+      if(theme == "light") {
+        target.remove('dark')
+        setSetting("theme", "light")
+      } else if(theme == "dark") {
+        target.add('dark')
+        setSetting("theme", "dark")
+      } else {
+        console.error("Invalid theme: " + theme)
+      }
+    }
+
+    
+    function settingButtonHandler() {
+      var panel = document.getElementById("settingpanel");
+
+      if(getSetting("panel-visibility") == "true") {
+        setSetting("panel-visibility", "false")
+        panel.classList.add("hidden")
+      } else if(getSetting("panel-visibility") == "false") {
+        setSetting("panel-visibility", "true")
+        panel.classList.remove("hidden")
+      }
+
+      console.log("Toggling settings panel")
+
+    }
+
+    
+    function settingHandler(group, value) {
+      
+      if (group == "theme") {
+        setTheme(value)
+      } else {
+        console.error("Invalid group: " + group)
+      }
+    }
+
+    
+    if (localStorage['lobvm-setting-theme'] === 'dark' || (!('lobvm-setting-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+      console.log("Loading dark theme")
+    } else {
+      document.documentElement.classList.remove('dark')
+      console.log("Loading light theme")
+    }
+
+    
+  </script>
+
+  
+  <title>Rubrics &middot; Little Office of the Blessed Virgin Mary</title>
+
+  <meta name="description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+
+  
+  <meta property="og:url" content="https://www.lobvm.com/rubrics/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+  <meta property="og:image" content="https://www.lobvm.com/img/og.jpg">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="https://www.lobvm.com/">
+  <meta property="twitter:url" content="https://www.lobvm.com/rubrics/">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+  <meta name="twitter:image" content="https://www.lobvm.com/img/og.jpg">
+
+  
+  <link rel="canonical" href="index.html">
+
+  
+  
+
+
+  
+  <link rel="stylesheet" href="../css/main.min.f1fcb63827354baf0af9a962fb80ff25742a228c1f6333ef7083ba2ed362339a.css" integrity="sha256-8fy2OCc1S68K+ali+4D/JXQqIowfYzPvcIO6LtNiM5o="/>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&amp;family=Spartan:wght@600&amp;display=swap" rel="stylesheet">
+
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../img/favicons/site.webmanifest">
+  <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#035eff">
+  <link rel="shortcut icon" href="../img/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="LOBVM">
+  <meta name="application-name" content="LOBVM">
+  <meta name="msapplication-TileColor" content="#ffc40b">
+  <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  
+</head>
+
+  <body>
+    <main class="dark:bg-gray-900 dark:text-white">
+    <div class="bg-cover bg-top md:invisible bg-opacity-75" style="background-image:linear-gradient(rgba(55, 65, 81, 0.7), rgba(55, 65, 81, 0.7)), url('../img/banner.jpg') ">
+  <h1 class="text-6xl pb-8 pt-12 font-serif text-center bg-clip-text md:visible tracking-tighter md:tracking-tight">
+    <a href="../index.html">
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400 text-4xl md:text-6xl">Little Office of the </span>
+      <br />
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400">Blessed Virgin </span>
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400 hidden md:inline">Mary</span>
+    </a>
+  </h1>
+</div>
+
+<nav class="text-center bg-primary-700 dark:bg-primary-600 text-white font-bold md:space-x-8 p-4 text-2xl md:text-3xl font-sans noprint">
+    
+    
+      <a href="../introduction/index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">Introduction</a>
+    
+      <a href="index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">Rubrics</a>
+    
+      <a href="../how-to/index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">How&nbsp;To&nbsp;Pray</a>
+    
+
+    <span title="Settings" alt="Toggle settings menu" class="hover:underline cursor-pointer" onclick="settingButtonHandler()">
+        Settings
+    </span>
+</nav>
+<div class="settings-dropdown border-1 text-center p-1 mx-10 my-5 noprint hidden" id="settingpanel">
+  <em>For more settings, go to one of the hours and then click settings.</em><div class="settings-block" class="">
+    Theme
+    <br class="md:hidden" />
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingHandler('theme','light')">
+      Light <br />
+    </button>
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingHandler('theme','dark')">
+      Dark <br />
+    </button>
+  </div>
+
+  <div class="settings-block" class="">
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingButtonHandler()">
+      Close Settings Window<br />
+    </button>
+  </div>
+
+</div>
+
+<div class="bg-secondary-200 w-full h-24 hidden md:block">
+    <img class="object-cover w-full h-24" src="../img/banner.jpg" />
+</div>
+
+
+
+<div class="leading-6 p-4 mt-4 text-lg font-sans grid md:grid-cols-5 lg:grid-cols-4">
+  <div class="md:col-start-2 md:col-span-3 lg:col-span-2 lg:col-start-2">
+  <h1 class="pb-6 text-3xl text-primary-700 dark:text-secondary-200 font-serif">Rubrics</h1>
+  <article class="leading-normal primary-content-block continuous-paragraph">
+  <p><em>This selection of rubrics is from the 1915 Benziger Brothers edition of
+the Little Office of the Blessed Virgin Mary.</em></p>
+<h2 id="rubrics">Rubrics</h2>
+<p>1. The Little Office of the Blessed Virgin is essentially the same throughout the year. However, as Advent and Christmas have portions proper to themselves, it may be divided into three parts:</p>
+<blockquote>
+<ol>
+<li>The ordinary form of the Office begins at Matins the day after the Purification.</li>
+<li>The Advent Office begins with the Vespers of the Saturday before the first Sunday of Advent.</li>
+<li>The Christmas Office begins with the first Vespers of Christmas and continues until after Compline of the Purification.</li>
+</ol>
+</blockquote>
+<p>2. When Lauds are said immediately after Matins the Ave Maria before the Deus in adjutorium is omitted.</p>
+<p>3. When the Office is said in private, the Anthem of the Blessed Virgin is said after Lauds and Compline only, unless the Little Hours follow immediately after Lauds; then the Anthem is said after the last Hour. The Little Hours end with an Ave Maria when they are said separately from Lauds or from one another. Vespers are also terminated by an Ave Maria when they are separated from Compline.</p>
+<p>4. When the Office is said in public and discontinued after the recital of one of the Hours, the Anthem of the Blessed Virgin is always said.</p>
+<p>5. If one or more of the Little Hours be said immediately after Lauds, the Pater and the Versicle which follow Fidelium animae, etc., are said only after the last Hour.</p>
+<p>6. The Anthem of the Blessed Virgin is said standing during Paschal time, and from the Vespers of Saturday until after the Compline of Sunday. At all other times it is said kneeling.</p>
+<p>7. The Te Deum is said from Christmas to Septuagesima Sunday, and from Easter to Advent. During the remainder of the year it is said only on the feasts of the Blessed Virgin and on the feast of St. Joseph.</p>
+<p>8. On the feast of the Annunciation the Office is said as in Advent.</p>
+<p>9. When the feast of the Purification occurs after Septuagesima Sunday, the Te Deum may be said. If this feast is transferred the alteration in the Office is not transferred with it.</p>
+<p>10. From Septuagesima Sunday to Vespers on Holy Saturday, Laus tibi, Domine, etc., is said instead of Alleluia.</p>
+<p>11. In Passion-time the Gloria is to be said as usual. During the last three days of Holy Week the Little Office is not recited publicly.</p>
+<p>12. In Paschal-time the Office is the same as that before Advent; but after the Benedictus, the Magnificat, and the Nunc Dimittis the Anthem Regina Coeli is said. During this time the Alleluia is not said after the Invitatory, Versicles, or Responses. Paschal-time begins with Compline of Holy Saturday, and ends at None of the Saturday
+after Pentecost.</p>
+<p>13. The Anthem Regina Coeli is said for the first time after the Nunc Dimittis on Holy Saturday, and for the last time at Lauds of the Saturday before Trinity Sunday.</p>
+<p>14. From the Compline of the Purification, the Anthem Ave Regina is said instead of the Alma Redemptoris.</p>
+<p>15. When the commemoration of a Patron Saint is made, it should be at Vespers and Lauds, between the prayer which follows the Magnificat and the Benedictus, and the Commemoration of Saints.</p>
+<h2 id="ceremonial">Ceremonial</h2>
+<p>According to the mind of the Church, the Office is a choral service; that is, a public service sung or recited with a certain ceremonial. Mindful of St. Paul&rsquo;s words, &ldquo;Let all things be done decently and according to order,&rdquo; Holy Church has surrounded the recitation of her public prayer with a minute code of rules and ceremonies, all inspired by the spirit of reverence. In reciting the Office we should endeavor to make use of the ceremonial she has ordained, as being eminently calculated to help our soul to retain or regain the thought of God&rsquo;s presence.</p>
+<p>1. Kneeling, all say silently the introductory prayer.</p>
+<p>2. When the Superior gives the signal (by a tap on the desk), all rise and say in silence the Ave Maria.</p>
+<p>3. The Superior, or the Hebdomadary, begins Domine, labia mea aperies, making the sign of the cross upon the lips; then Deus, in adjutorium meum intende, making the large sign of the cross.</p>
+<p>At the Gloria all bow the head profoundly.</p>
+<p>4. During the Deus in adjutorium the Cantors go to the lectern, where, having genuflected before the altar, and saluted their respective Choirs, they say the Invitatory. This is repeated by the Choirs; the Cantors say the first verse of the Psalm Venite, exultemus, the Invitatory being again repeated by the Choirs; the remaining verses are said by the Cantors, followed after each verse by the Choirs with the Invitatory or a part of it. The Gloria Patri by the Cantors is followed by the Choirs with Dominus tecum; and the Cantors close with a repetition of the Invitatory.</p>
+<p>In the third verse, at the words Venite, adoremus, all kneel till the words Nos autem, when they rise for the repetition of the Invitatory.</p>
+<p>5. The first Cantor begins the Hymn and her Choir continues it. The second strophe is said by the opposite Choir; and so on, both Choirs uniting and bowing the head profoundly at the last strophe.</p>
+<p>6. The Antiphon is given out by the first Cantor, and also the Psalm as far as the asterisk, then all her Choir take it up. The next verse is recited by the opposite Choir, the remaining verses being recited alternately by the Choirs. At the end the Cantor repeats the Antiphon, and the second Cantor takes the second Antiphon and begins the next Psalm.</p>
+<p>This manner of reciting the Psalms is to be observed throughout all the Hours.</p>
+<p>7. The Psalmody over, all rise; the first Cantor says the Versicle, to which all respond. The Superior says aloud Pater Noster; then all continue it silently until the Et ne nos, etc., is said aloud by the Superior, when all make the answer. The Superior then gives the Absolution.</p>
+<p>8. The Reader goes to the lectern and after genuflecting before the altar turns toward the Superior and says, with a profound inclination of the head, Jube, domne, benedicere, remaining inclined while the Benediction is given by the Superior. All reply Amen; they may be seated while the Reader recites the Lesson.</p>
+<p>9. At the end of the Lesson the Choirs started by the Cantors say the Responsory; the Reader says the Versicle as far as the asterisk, when the Choirs continue it.</p>
+<p>The first Reader then retires to her place, while the next in order comes out to read the second Lesson, proceeding as described above, and saying the Gloria Patri.</p>
+<p>10. The Superior says the last Jube, domne, benedicere, and the one next in dignity gives the Benediction. The Superior from her place reads the third Lesson, during which all stand as a mark of respect. The Cantors intone the Responsory; the Superior says the Versicle as far as the asterisk, the Choirs continuing it.</p>
+<p>11. The Te Deum is started by the Cantors, all rising. At the Te ergo all kneel, rising at the next verse.</p>
+<p>12. At Lauds the Superior begins, making the sign of the cross, Deus in adjutorium. At the Gloria all bow the head profoundly. N.B. This ceremonial is used at all the Hours.</p>
+<p>13. If it is found that the reciting note is lowered after several Psalms, the Cantor will raise the pitch when giving out the Antiphon at the Laudate.</p>
+<p>14. The Superior says the Little Chapter, to which all answer Deo gratias.</p>
+<p>15. The Hymn is said as before; the Versicle, Antiphon, and the Canticle Benedictus are started by the Cantor.</p>
+<p>16. At the Canticle, which is to be said more solemnly than the rest of the Office, it is customary for all to make the sign of the cross.</p>
+<p>17. After the Antiphon the first Choir says Kyrie eleison, to which the second Choir responds, both Choirs uniting in the last invocation. The Superior says the Versicles, and then the Prayer, during which all but the reciter bow profoundly, rising to answer Amen.</p>
+<p>18. At the Commemoration all say the Antiphon; the Cantor follows with the Versicle; the Superior says the Prayer.</p>
+<p>19. All say the Pater together in secret; the Dominus det nobis is said by the Superior.</p>
+<p>20. The Prayer after the Office is said by the Superior.</p>
+<p>21. The other Hours are said in the same way.</p>
+<p>22. The Cantors stand while intoning an Antiphon or Psalm. The Versicles are recited by the Cantors together, except when directed otherwise. The Choirs say the Responses. The Dominus vobiscum is said only by a Priest or Deacon.</p>
+<p>23. During the Psalms and at the first two Lessons, all may be seated.</p>
+<p>24. All kneel at the Prayer before the Office; at the first verse of the Hymn Ave Maris Stella; at the Pater, Ave, and Credo, after Compline; at the Prayer after the Office and the Pater and Ave following.</p>
+<p>25. All stand at the Ave Maria and the Versicles following;
+at the intonation of the first Psalm of each Hour;
+at the Psalm Venite exultemus;
+at the Little Chapter;
+after the first verse of the Hymn Ave Maris Stella;
+at the Canticles Magnificat, Nunc Dimittis, and Benedictus, with their Antiphons, Versicles, and Prayers;
+at the Commemorations of Saints and the Versicles following;
+at the Hymns Memento, Quem terra, O Gloriosa, and Te Deum;
+at the Anthems Alma Redemptoris, Ave Regina, Regina Coeli, and Salve Regina, in Paschal time and from Saturday&rsquo;s Vespers until after Sunday&rsquo;s Compline;
+at the Pater Noster and the Absolution;
+at the Jube, domne, benedicere, and the Benediction;
+at the last Lesson.</p>
+<p>26. A profound bow of the head (and slight inclination of the shoulders) is made
+at the Gloria Patri;
+at the Sit nomen Domini benedictum;
+at the name of Jesus;
+at the last strophe of the Hymns.
+A medium bow of the head (head only) is made as often as the name of Mary occurs.
+A minimum bow of the head (slight inclination) is made at mention of the names of the Saints commemorated.</p>
+<p>27. The Sign of the Cross is made in the ordinary way whilst saying
+(1) Deus in adjutorium; (2) at the beginning of the Canticles Magnificat, Benedictus, and Nunc Dimittis; (3) at the end of Compline in saying Benedicat et custodiat, etc.
+It is made with the thumb on the lips whilst saying Aperi, Domine, and Domine, labia mea aperies; and it is made on the heart whilst saying Converte nos at the beginning of Compline.</p>
+
+
+  <div class="pt-1">&nbsp;</div>
+  <hr class="border-0 bg-gray-500 text-gray-500 h-px">
+  <div class="pb-1">&nbsp;</div>
+
+  <h2 class="pt-4 pb-6 text-3xl text-primary-700 dark:text-secondary-200 font-serif">Sources</h2>
+
+  This page was based on the following original source:
+
+  <ul>
+
+    <li class="underline italic pt-3 list-decimal list-inside dark:text-primary-300"><a href="https://archive.org/details/littleofficeofbl00newy/page/n15/mode/2up" target="_blank">1915 Benziger Brothers Edition of the LOBVM</a></li>
+
+  </ul>
+
+
+  </article>
+  </div>
+</div>
+    </main>
+<div class="bg-primary-700 text-white dark:bg-primary-600 text-center p-3">
+    <p>Other Little Offices</p>
+    
+      <a href="https://www.littleofficeofthesacredheartofjesus.com/" title="" alt="" class="hover:underline md:mx-0 mx-4 noprint font-bold md:space-x-8 p-4 text-2xl md:text-3xl">Little Office of the Sacred Heart</a>
+    
+      <a href="https://www.littleofficeofdivinewrath.com/" title="" alt="" class="hover:underline md:mx-0 mx-4 noprint font-bold md:space-x-8 p-4 text-2xl md:text-3xl">Little Office of Divine Wrath</a>
+    
+</div>
+
+<div class="bg-primary-700 text-white dark:bg-primary-600 text-center p-3">
+
+    
+    <p class="text-lg"><strong>© 2021 by LOBVM.com</strong></p>
+    <p class="text-sm">(except for texts already in the public domain)</p>
+
+</div>
+
+  </body>
+
+<!-- Mirrored from www.lobvm.com/rubrics/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Jun 2024 22:10:44 GMT -->
+</html>

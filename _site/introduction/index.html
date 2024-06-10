@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from www.lobvm.com/introduction/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Jun 2024 22:10:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.126.1">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <meta name="robots" content="INDEX, FOLLOW">
+  <script async defer data-domain="lobvm.com" src="https://stats.yanke.io/js/plausible.js"></script>
+
+
+  
+  <script>
+    console.log("Loaded%20settings.html")
+
+    settingDefaults = {
+      'theme': 'light',
+      'panel-visibility' : 'false',
+    }
+
+    settingPrefix="lobvm-setting-"
+
+    
+    function setSetting(key, value) {
+      localStorage.setItem(settingPrefix + key, value);
+    }
+
+    
+    function getSetting(key) {
+
+      value = localStorage.getItem(settingPrefix + key);
+
+      if (value === null) {
+        console.log("Falling back to debug value for key - " + key)
+        return settingDefaults[key]
+      }
+
+      return value
+
+    }
+
+    function setTheme(theme) {
+      console.log("Setting theme to " + theme)
+      target = document.documentElement.classList
+
+      if(theme == "light") {
+        target.remove('dark')
+        setSetting("theme", "light")
+      } else if(theme == "dark") {
+        target.add('dark')
+        setSetting("theme", "dark")
+      } else {
+        console.error("Invalid theme: " + theme)
+      }
+    }
+
+    
+    function settingButtonHandler() {
+      var panel = document.getElementById("settingpanel");
+
+      if(getSetting("panel-visibility") == "true") {
+        setSetting("panel-visibility", "false")
+        panel.classList.add("hidden")
+      } else if(getSetting("panel-visibility") == "false") {
+        setSetting("panel-visibility", "true")
+        panel.classList.remove("hidden")
+      }
+
+      console.log("Toggling settings panel")
+
+    }
+
+    
+    function settingHandler(group, value) {
+      
+      if (group == "theme") {
+        setTheme(value)
+      } else {
+        console.error("Invalid group: " + group)
+      }
+    }
+
+    
+    if (localStorage['lobvm-setting-theme'] === 'dark' || (!('lobvm-setting-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+      console.log("Loading dark theme")
+    } else {
+      document.documentElement.classList.remove('dark')
+      console.log("Loading light theme")
+    }
+
+    
+  </script>
+
+  
+  <title>Introduction to the Little Office &middot; Little Office of the Blessed Virgin Mary</title>
+
+  <meta name="description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+
+  
+  <meta property="og:url" content="https://www.lobvm.com/introduction/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+  <meta property="og:image" content="https://www.lobvm.com/img/og.jpg">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="https://www.lobvm.com/">
+  <meta property="twitter:url" content="https://www.lobvm.com/introduction/">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+  <meta name="twitter:image" content="https://www.lobvm.com/img/og.jpg">
+
+  
+  <link rel="canonical" href="index.html">
+
+  
+  
+
+
+  
+  <link rel="stylesheet" href="../css/main.min.f1fcb63827354baf0af9a962fb80ff25742a228c1f6333ef7083ba2ed362339a.css" integrity="sha256-8fy2OCc1S68K+ali+4D/JXQqIowfYzPvcIO6LtNiM5o="/>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&amp;family=Spartan:wght@600&amp;display=swap" rel="stylesheet">
+
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../img/favicons/site.webmanifest">
+  <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#035eff">
+  <link rel="shortcut icon" href="../img/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="LOBVM">
+  <meta name="application-name" content="LOBVM">
+  <meta name="msapplication-TileColor" content="#ffc40b">
+  <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  
+</head>
+
+  <body>
+    <main class="dark:bg-gray-900 dark:text-white">
+    <div class="bg-cover bg-top md:invisible bg-opacity-75" style="background-image:linear-gradient(rgba(55, 65, 81, 0.7), rgba(55, 65, 81, 0.7)), url('../img/banner.jpg') ">
+  <h1 class="text-6xl pb-8 pt-12 font-serif text-center bg-clip-text md:visible tracking-tighter md:tracking-tight">
+    <a href="../index.html">
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400 text-4xl md:text-6xl">Little Office of the </span>
+      <br />
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400">Blessed Virgin </span>
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400 hidden md:inline">Mary</span>
+    </a>
+  </h1>
+</div>
+
+<nav class="text-center bg-primary-700 dark:bg-primary-600 text-white font-bold md:space-x-8 p-4 text-2xl md:text-3xl font-sans noprint">
+    
+    
+      <a href="index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">Introduction</a>
+    
+      <a href="../rubrics/index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">Rubrics</a>
+    
+      <a href="../how-to/index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">How&nbsp;To&nbsp;Pray</a>
+    
+
+    <span title="Settings" alt="Toggle settings menu" class="hover:underline cursor-pointer" onclick="settingButtonHandler()">
+        Settings
+    </span>
+</nav>
+<div class="settings-dropdown border-1 text-center p-1 mx-10 my-5 noprint hidden" id="settingpanel">
+  <em>For more settings, go to one of the hours and then click settings.</em><div class="settings-block" class="">
+    Theme
+    <br class="md:hidden" />
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingHandler('theme','light')">
+      Light <br />
+    </button>
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingHandler('theme','dark')">
+      Dark <br />
+    </button>
+  </div>
+
+  <div class="settings-block" class="">
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingButtonHandler()">
+      Close Settings Window<br />
+    </button>
+  </div>
+
+</div>
+
+<div class="bg-secondary-200 w-full h-24 hidden md:block">
+    <img class="object-cover w-full h-24" src="../img/banner.jpg" />
+</div>
+
+
+
+<div class="leading-6 p-4 mt-4 text-lg font-sans grid md:grid-cols-5 lg:grid-cols-4">
+  <div class="md:col-start-2 md:col-span-3 lg:col-span-2 lg:col-start-2">
+  <h1 class="pb-6 text-3xl text-primary-700 dark:text-secondary-200 font-serif">Introduction to the Little Office</h1>
+  <article class="leading-normal primary-content-block continuous-paragraph">
+  <p><em>This introduction to the 1915 Benziger Brothers edition of
+the Little Office of the Blessed Virgin Mary has been reproduced here in
+full for your education and edification.</em></p>
+<p>The Little Office of the Blessed Virgin is one of the liturgical prayers of
+the Church, and she imposes it on many of her children. Although the Little
+Office of Our Lady is considerably shorter than the ever-varying Office which
+the Clergy and Religious in solemn vows have to say, yet, coming as it does
+from the same authority, it is as much a liturgical prayer as the Divine
+Office, and has the same claims to be considered a part of the official
+worship which the mystical Spouse of Christ, the Church, daily offers to her
+Divine Head.</p>
+<p>Prayer is the great duty of man here below: <em>Oportet semper or are et non
+deficere</em> — &ldquo;We ought always to pray and not to faint&rdquo; (Luke xviii. i).</p>
+<p>We appear before God under three different aspects: as individuals, as
+members of congregations or societies, and as members of a Divine Society.
+Hence there are three kinds of prayer: (1) private prayer, (2) prayer in
+common, and (3) the prayer of the Church, or liturgical prayer.</p>
+<p>Of the first kind, private prayer, Our Lord spoke when He said: &ldquo;But thou
+when thou shalt pray, enter into thy chamber, and having shut the door, pray
+to thy Father in secret, and thy Father who seeth in secret will repay thee,&rdquo;
+(<em>Matt. vi. 6</em>).</p>
+<p>The second kind, prayer in common, is that which we offer as members of
+congregations or societies. The prayers said by the members of a family, such
+as morning and night prayers, the prayers said together by the members of a
+congregation or a community, are better than individual prayers. Our Lord
+praised this kind of prayer when He said: &ldquo;If two of you shall consent upon
+earth, concerning anything whatsoever they shall ask, it shall be done to
+them by My Father who is in heaven. For where there are two or three gathered
+together in My Name, there am I in the midst of them,&rdquo; (<em>Matt, xviii. 19,
+20</em>).</p>
+<p>The third kind, liturgical prayer, is much more pleasing to God; it excels
+both private prayer and prayer in common. It is the prayer we offer as
+members of a Divine Society, the Holy Church.</p>
+<p>The public prayer of the Church may be looked upon as the public act of the
+whole body of the Church. Those who by their Rule, approved by the Church,
+are charged with saying the Office, whether it be the Divine Office or the
+Little Office of the Blessed Virgin, say it as public officers of the Church,
+who officially stand before the throne of God and make intercession for the
+whole body of Christ&rsquo;s Church. When performing this duty, even when alone,
+they cease to be private individuals; they are invested with the public
+character of ambassadors to the heavenly Court. But an ambassador&rsquo;s personal
+merit is of very secondary concern. What does matter is the dignity and power
+of him who sent the ambassador, and whom he represents. Those who take part
+in this public Office do not stand before God in their own name, nor yet in
+the name of the faithful assembled, but in the name of the Holy Church
+appointed by God. Her service and prayer do not partake of the worth and
+devotion of the angels, but of the worth of the mystical body of Christ.</p>
+<p>This prayer of the Church is the most excellent of prayers. Private prayer
+and prayer in common are doubtless very good, and highly pleasing to God; but
+they are human prayers, necessarily defective, made and said by men who are
+sinners, and not always altogether pleasing to God. Not so the prayers of the
+Church. These are always graciously heard and pleasing :</p>
+<p>1. Because they are offered by the Spouse of Christ, and always exceedingly
+pleasing to Him because she is exceedingly loved by Him. During all eternity
+God rejoices in this prayer, in these canticles of praise, and in these hymns
+of love of the Spouse of Christ.</p>
+<p>2. This prayer is most excellent, if we consider the sentiment and the words
+used. When we pray privately or in common, we express human feelings modified
+and colored by their natural source. But the prayers of the Church are almost
+wholly from Sacred Scripture; they express feelings inspired by the Holy
+Ghost Himself. When we use the inspired language of the Holy Spirit these
+words of the prayer of the Church are worthy of God, because they are His own
+words. This prayer is divine, therefore, both in the feelings it expresses
+and even in the words used.</p>
+<p>This, then, is our position when, in the name of the Church, we take up our
+Office book and say our Hours — as the Apostle says: we &ldquo;put on the Lord
+Jesus Christ&rdquo; We are taking part in the heavenly worship which goes on
+forever before the great Throne, and are lending our voices to all creation
+to praise Him Who sits thereon. With such thoughts as these we shall enter
+upon our Office with a heart attuned to the work we have to do and we shall
+get from it the profit that Our Lord intends.</p>
+<p>Liturgical prayer, such as we have it in the Office and as is laid upon us by
+the Church, is no private devotion; it is the prayer which the Word Incarnate
+is ever pouring forth in behalf of the mystical body of which He is the head.
+Those who say it are the willing instruments placed at His disposal by His
+Spouse, the Church. We abide in Him and He in us. The words we speak, we
+speak not of ourselves, but in His person. In liturgical prayer we have the
+most perfect means of adoring and thanking God, and of making supplication
+and atonement, that the Eternal Wisdom could provide. By Jesus Christ,
+therefore, let us offer the sacrifice of praise to God continually, that is,
+the fruit of our lips giving thanks to His Name. From this point of view
+there is nothing to be added to make us esteem and love our Office. No one
+who knows what it is can hesitate in putting it far above any private
+devotion; for nothing can compare with it, save and except the Mass, with
+which it is so closely connected. The Office and the Mass form but one whole,
+and one can understand the Office only when it is studied in the light of the
+Altar; for it is the setting of rich gold which surrounds and sets forth the
+priceless jewel of the Mass.</p>
+<p>Under all circumstances, when saying the Office of Our Lady, we must place
+our hand in hers, and together with her approach the Throne of Grace.</p>
+<p>St. Augustine says:</p>
+<blockquote>
+<p>Let it not be objected that the words of the Office are not our
+own, that the Psalms were not composed for us, that they suppose
+thoughts, circumstances, and dispositions that are not ours. For
+the Office has been compiled for us. The Psalms (we repeat it
+again) have Jesus, the Incarnate God, not David, as their first
+and principal object. What they express is not the mind of any one
+man in particular, but the mind of all Christians considered in
+Him Who is their divine head. The feelings contained in the Psalms
+are those which were wrought first in the soul of Our Lord by the
+Holy Ghost, and then through Him in all those who are members of
+His mystical body. Therefore they are ours as well as David&rsquo;s, or
+any of the saints. So it was for us the Psalms were written. The
+Holy Ghost had us in view when He inspired them. He speaks of our
+perils, of our warfare; He mourns over our sins; and in true and
+touching words He speaks of our repentance, our hope, our zeal,
+our gratitude, and our love. For, according to St. Paul: &lsquo;All
+things are yours; but ye are Christ&rsquo;s; and Christ is God&rsquo;s.’</p>
+</blockquote>
+
+
+  <div class="pt-1">&nbsp;</div>
+  <hr class="border-0 bg-gray-500 text-gray-500 h-px">
+  <div class="pb-1">&nbsp;</div>
+
+  <h2 class="pt-4 pb-6 text-3xl text-primary-700 dark:text-secondary-200 font-serif">Sources</h2>
+
+  This page was based on the following original source:
+
+  <ul>
+
+    <li class="underline italic pt-3 list-decimal list-inside dark:text-primary-300"><a href="https://archive.org/details/littleofficeofbl00newy/page/n9/mode/2up" target="_blank">1915 Benziger Brothers Edition of the LOBVM</a></li>
+
+  </ul>
+
+
+  </article>
+  </div>
+</div>
+    </main>
+<div class="bg-primary-700 text-white dark:bg-primary-600 text-center p-3">
+    <p>Other Little Offices</p>
+    
+      <a href="https://www.littleofficeofthesacredheartofjesus.com/" title="" alt="" class="hover:underline md:mx-0 mx-4 noprint font-bold md:space-x-8 p-4 text-2xl md:text-3xl">Little Office of the Sacred Heart</a>
+    
+      <a href="https://www.littleofficeofdivinewrath.com/" title="" alt="" class="hover:underline md:mx-0 mx-4 noprint font-bold md:space-x-8 p-4 text-2xl md:text-3xl">Little Office of Divine Wrath</a>
+    
+</div>
+
+<div class="bg-primary-700 text-white dark:bg-primary-600 text-center p-3">
+
+    
+    <p class="text-lg"><strong>© 2021 by LOBVM.com</strong></p>
+    <p class="text-sm">(except for texts already in the public domain)</p>
+
+</div>
+
+  </body>
+
+<!-- Mirrored from www.lobvm.com/introduction/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Jun 2024 22:10:43 GMT -->
+</html>

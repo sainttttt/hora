@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from www.lobvm.com/hours/roman/1910/office-2/en/none/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Jun 2024 22:12:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.126.1">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <meta name="robots" content="INDEX, FOLLOW">
+  <script async defer data-domain="lobvm.com" src="https://stats.yanke.io/js/plausible.js"></script>
+
+
+  
+  <script>
+    console.log("Loaded%20settings.html")
+
+    settingDefaults = {
+      'theme': 'light',
+      'panel-visibility' : 'false',
+    }
+
+    settingPrefix="lobvm-setting-"
+
+    
+    function setSetting(key, value) {
+      localStorage.setItem(settingPrefix + key, value);
+    }
+
+    
+    function getSetting(key) {
+
+      value = localStorage.getItem(settingPrefix + key);
+
+      if (value === null) {
+        console.log("Falling back to debug value for key - " + key)
+        return settingDefaults[key]
+      }
+
+      return value
+
+    }
+
+    function setTheme(theme) {
+      console.log("Setting theme to " + theme)
+      target = document.documentElement.classList
+
+      if(theme == "light") {
+        target.remove('dark')
+        setSetting("theme", "light")
+      } else if(theme == "dark") {
+        target.add('dark')
+        setSetting("theme", "dark")
+      } else {
+        console.error("Invalid theme: " + theme)
+      }
+    }
+
+    
+    function settingButtonHandler() {
+      var panel = document.getElementById("settingpanel");
+
+      if(getSetting("panel-visibility") == "true") {
+        setSetting("panel-visibility", "false")
+        panel.classList.add("hidden")
+      } else if(getSetting("panel-visibility") == "false") {
+        setSetting("panel-visibility", "true")
+        panel.classList.remove("hidden")
+      }
+
+      console.log("Toggling settings panel")
+
+    }
+
+    
+    function settingHandler(group, value) {
+      
+      if (group == "theme") {
+        setTheme(value)
+      } else {
+        console.error("Invalid group: " + group)
+      }
+    }
+
+    
+    if (localStorage['lobvm-setting-theme'] === 'dark' || (!('lobvm-setting-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+      console.log("Loading dark theme")
+    } else {
+      document.documentElement.classList.remove('dark')
+      console.log("Loading light theme")
+    }
+
+    
+  </script>
+
+  
+  <title>None &middot; Little Office of the Blessed Virgin Mary</title>
+
+  <meta name="description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+
+  
+  <meta property="og:url" content="https://www.lobvm.com/hours/roman/1910/office-2/en/none/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+  <meta property="og:image" content="https://www.lobvm.com/img/og.jpg">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="https://www.lobvm.com/">
+  <meta property="twitter:url" content="https://www.lobvm.com/hours/roman/1910/office-2/en/none/">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="Pray the Blessed Virgin&#39;s Little Office: the straightforward way to sanctify the day — prayed by religious and lay people alike">
+  <meta name="twitter:image" content="https://www.lobvm.com/img/og.jpg">
+
+  
+  <link rel="canonical" href="index.html">
+
+  
+  
+
+
+  
+  <link rel="stylesheet" href="../../../../../../css/main.min.f1fcb63827354baf0af9a962fb80ff25742a228c1f6333ef7083ba2ed362339a.css" integrity="sha256-8fy2OCc1S68K+ali+4D/JXQqIowfYzPvcIO6LtNiM5o="/>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&amp;family=Spartan:wght@600&amp;display=swap" rel="stylesheet">
+
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../../../../img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../../../img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../../../img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../../../../../../img/favicons/site.webmanifest">
+  <link rel="mask-icon" href="../../../../../../img/favicons/safari-pinned-tab.svg" color="#035eff">
+  <link rel="shortcut icon" href="../../../../../../img/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="LOBVM">
+  <meta name="application-name" content="LOBVM">
+  <meta name="msapplication-TileColor" content="#ffc40b">
+  <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  
+</head>
+
+  <body>
+    <main class="dark:bg-gray-900 dark:text-white">
+    <div class="bg-cover bg-top md:invisible bg-opacity-75" style="background-image:linear-gradient(rgba(55, 65, 81, 0.7), rgba(55, 65, 81, 0.7)), url('../../../../../../img/banner.jpg') ">
+  <h1 class="text-6xl pb-8 pt-12 font-serif text-center bg-clip-text md:visible tracking-tighter md:tracking-tight">
+    <a href="../../../../../../index.html">
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400 text-4xl md:text-6xl">Little Office of the </span>
+      <br />
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400">Blessed Virgin </span>
+      <span class="text-white md:text-primary-700 md:dark:text-primary-400 hidden md:inline">Mary</span>
+    </a>
+  </h1>
+</div>
+
+<nav class="text-center bg-primary-700 dark:bg-primary-600 text-white font-bold md:space-x-8 p-4 text-2xl md:text-3xl font-sans noprint">
+    
+    
+      <a href="../../../../../../introduction/index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">Introduction</a>
+    
+      <a href="../../../../../../rubrics/index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">Rubrics</a>
+    
+      <a href="../../../../../../how-to/index.html" title="" alt="" class="hover:underline md:mx-0 mx-4">How&nbsp;To&nbsp;Pray</a>
+    
+
+    <span title="Settings" alt="Toggle settings menu" class="hover:underline cursor-pointer" onclick="settingButtonHandler()">
+        Settings
+    </span>
+</nav>
+<div class="settings-dropdown border-1 text-center p-1 mx-10 my-5 noprint hidden" id="settingpanel">
+  
+
+  
+  <div class="settings-block" class="">
+  Office
+  <br class="md:hidden" />
+  
+    <br class="md:hidden" />
+      <a href="../../../office-1/en/none/index.html">
+        <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0">
+          Office I <br />
+          <em class="font-thin text-xs">Candlemas to Advent</em>                                                                                                                              
+        </button>
+      </a>
+  
+    <br class="md:hidden" /><button disabled class="bg-gray-400 disabled:opacity-50 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0">
+          Office II <br />
+          <em class="font-thin text-xs">Advent</em>
+      </button>
+  
+    <br class="md:hidden" />
+      <a href="../../../office-3/en/none/index.html">
+        <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0">
+          Office III <br />
+          <em class="font-thin text-xs">Christmas To Candlemas</em>                                                                                                                              
+        </button>
+      </a>
+  </div>
+  
+  <div class="settings-block" class="">
+  Calendar
+  <br class="md:hidden" />
+  <button disabled class="bg-gray-400 disabled:opacity-50 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0">
+          1910
+      </button>
+  
+      <a href="../../../../1962/office-2/en/none/index.html">
+        <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0">
+          1962
+        </button>
+      </a>
+  </div>
+  
+  
+
+  
+  <div class="settings-block" class="">
+  Language
+  <br class="md:hidden" />
+  
+    <button disabled class="bg-gray-400 disabled:opacity-50 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0">
+          English
+      </button>
+  
+    <a href="../../la/none/index.html">
+        <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0">
+          Latin
+        </button>
+      </a>
+  
+    <a href="../../la-en/none/index.html">
+        <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0 hidden sm:inline">
+          Latin/English
+        </button>
+      </a>
+  </div><div class="settings-block" class="">
+    Theme
+    <br class="md:hidden" />
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingHandler('theme','light')">
+      Light <br />
+    </button>
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingHandler('theme','dark')">
+      Dark <br />
+    </button>
+  </div>
+
+  <div class="settings-block" class="">
+    <button class="bg-primary-500 hover:bg-primary-700 text-white font-bold py-2 px-3 rounded m-2 flex-grow sm:flex-grow-0" onclick="settingButtonHandler()">
+      Close Settings Window<br />
+    </button>
+  </div>
+
+</div>
+
+<div class="bg-secondary-200 w-full h-24 hidden md:block">
+    <img class="object-cover w-full h-24" src="../../../../../../img/banner.jpg" />
+</div>
+
+
+
+
+
+
+
+
+<div class="leading-6 p-4 sm:p-4 mt-4 text-lg font-sans grid md:grid-cols-5 lg:grid-cols-4">
+  <div class="lg:col-span-2 lg:col-start-2 md:col-span-3 md:col-start-2">
+
+
+    <a name="content-top" />
+
+    <div class="block h-10 mb-10"><a href="../sext/index.html#content-top" class="bg-primary-100 text-primary-700 hover:text-white hover:bg-primary-700 dark:bg-gray-600 dark:text-white dark:hover:bg-primary-300 dark:hover:text-gray-900 font-bold text-md rounded-md p-3 float-left noprint">← Sext</a> 
+         <a href="../vespers/index.html#content-top" class="bg-primary-100 text-primary-700 hover:text-white hover:bg-primary-700 dark:bg-gray-600 dark:text-white dark:hover:bg-primary-300 dark:hover:text-gray-900 font-bold text-md rounded-md p-3 float-right noprint">Vespers →</a></div>
+
+  <h1 class="text-3xl text-primary-700 dark:text-secondary-200 font-serif">None</h1>
+
+  <em>Office II (Advent), 1910 Roman calendar</em>
+    
+    
+      
+        <h2 class="text-2xl my-3 text-primary-700 dark:text-secondary-200 font-serif" id="prayers-before-the-office">Prayers Before the Office</h2>
+      
+
+    
+    
+  
+    
+    
+      
+      
+      
+        
+          <p class="lang-english pb-2">O Lord, open Thou my mouth, that it may bless Thy holy name; cleanse my heart, too, from all vain, evil, or wandering thoughts. Enlighten mine understanding, kindle mine affections, that I may be able to say this Office meetly with attention and devotion and may deserve to be heard before the presence of Thy divine Majesty. Through Christ our Lord.</p>
+        
+          <p class="lang-english pb-2">℟ Amen.</p>
+        
+          <p class="lang-english pb-2">O Lord, in union with that divine intention wherewith Thou Thyself, while on earth, didst offer praises unto God, I offer these Hours unto Thee.</p>
+        
+      
+
+    
+    
+  
+    
+    
+      
+        <h2 class="text-2xl my-3 text-primary-700 dark:text-secondary-200 font-serif" id="introduction">Introduction</h2>
+      
+
+    
+    
+  
+    
+    
+      
+        <div class="text-xs italic pb-2 pt-2 text-rubric-600 dark:text-rubric-500 font-serif">The Hail Mary is prayed silently.</div>
+      
+
+    
+    
+  
+    
+    
+      
+      
+      
+        
+          <p class="lang-english pb-2">Hail Mary, full of grace; The Lord is with thee; Blessed art thou amongst women, And blessed is the fruit of thy womb, Jesus.</p>
+        
+          <p class="lang-english pb-2">Holy Mary, Mother of God, Pray for us sinners, now and at the hour of our death. Amen.</p>
+        
+      
+
+    
+    
+  
+    
+    
+      
+      
+      
+        
+          <p class="lang-english pb-2">℣ O God, ✠ hasten to mine aid</p>
+        
+          <p class="lang-english pb-2">℟ O Lord, make haste to help me.</p>
+        
+          <p class="lang-english pb-2">℣ Glory be to the Father, and to the Son, * and to the Holy Ghost.</p>
+        
+          <p class="lang-english pb-2">℟ As it was in the beginning, is now, and ever shall be, world without end. Amen. (outside lent:) Alleluia. (from Septuagesima to Holy Saturday:) Praise be to Thee, O Lord, King of glory everlasting.</p>
+        
+      
+
+    
+    
+  
+    
+    
+      
+        <h2 class="text-2xl my-3 text-primary-700 dark:text-secondary-200 font-serif" id="hymn">Hymn</h2>
+      
+
+    
+    
+  
+    
+    
+
+      
+
+
+      
+
+      
+        
+          <p class="lang-english pb-4">
+          
+            Remember, O creator Lord,<br />
+          
+            That in the Virgin&#39;s sacred womb<br />
+          
+            Thou wast conceived, and of her flesh<br />
+          
+            Didst our mortality assume.<br />
+          
+          </p>
+        
+          <p class="lang-english pb-4">
+          
+            Mother of grace! O Mary blest!<br />
+          
+            To thee, sweet fount of love, we fly;<br />
+          
+            Shield us through life, and take us hence<br />
+          
+            To thy dear bosom, when we die.<br />
+          
+          </p>
+        
+          <p class="lang-english pb-4">
+          
+            O Jesu! born of Virgin bright,<br />
+          
+            Immortal glory be to Thee;<br />
+          
+            Praise to the Father infinite,<br />
+          
+            And Holy Ghost eternally.<br />
+          
+          </p>
+        
+          <p class="lang-english pb-4">
+          
+            Amen.<br />
+          
+          </p>
+        
+      
+	
+    
+    
+  
+    
+    
+      
+
+    
+    
+  
+    
+    
+       
+
+    
+    
+  
+    
+    
+
+      
+
+      
+
+      
+        <div class="lang-english">
+        
+          <p class="py-1"><i class="text-rubric-600 dark:text-rubric-500 px-1">Ant.</i> Behold the handmaid of the Lord.</p>
+        
+        </div>
+      
+
+    
+    
+  
+    
+    
+       
+
+    
+    
+  
+    
+    
+      
+
+    
+    
+  
+    
+    
+       
+
+    
+    
+  
+    
+    
+      
+        <h3 class="text-base my-3 text-primary-600 dark:text-secondary-200 font-serif" id="psalm-125">Psalm 125</h3>
+      
+
+    
+    
+  
+    
+    
+
+      
+
+      
+
+      
+        <ul class="lang-english pb-4">
+        
+          <li class="hanging-indent pb-2">When the Lord turned again the captivity of Sion, we became like men consoled.</li>
+        
+          <li class="hanging-indent pb-2">Then was our mouth filled with gladness, and our tongue with joy.</li>
+        
+          <li class="hanging-indent pb-2">Then shall they say among the Gentiles: The Lord hath done great things for them.</li>
+        
+          <li class="hanging-indent pb-2">The Lord hath done great, things for us: we are become joyful.</li>
+        
+          <li class="hanging-indent pb-2">Turn again our captivity, O Lord, as a river in the south.</li>
+        
+          <li class="hanging-indent pb-2">They that sow in tears, shall reap in joy.</li>
+        
+          <li class="hanging-indent pb-2">They went forth on their way and wept, scattering their seed.</li>
+        
+          <li class="hanging-indent pb-2">But returning they shall come with joy, bringing their sheaves with them.</li>
+        
+          <li class="hanging-indent pb-2">Glory be to the Father, and to the Son, * and to the Holy Ghost.</li>
+        
+          <li class="hanging-indent pb-2">As it was in the beginning, is now, * and ever shall be, world without end. Amen.</li>
+        
+        </ul>
+      
+
+    
+    
+  
+    
+    
+      
+        <h3 class="text-base my-3 text-primary-600 dark:text-secondary-200 font-serif" id="psalm-126">Psalm 126</h3>
+      
+
+    
+    
+  
+    
+    
+
+      
+
+      
+
+      
+        <ul class="lang-english pb-4">
+        
+          <li class="hanging-indent pb-2">Unless the Lord build a house, they labor in vain that build it.</li>
+        
+          <li class="hanging-indent pb-2">Unless the Lord keep the city, he watcheth in vain that keepeth it.</li>
+        
+          <li class="hanging-indent pb-2">In vain do ye rise before the light: rise not till ye have rested, O ye that eat the bread of sorrow.</li>
+        
+          <li class="hanging-indent pb-2">When He giveth sleep to His beloved: lo, children are an heritage from the Lord, and the fruit of the womb a reward.</li>
+        
+          <li class="hanging-indent pb-2">Like as arrows in the hand of the mighty One, so are the children of those who have been cast out.</li>
+        
+          <li class="hanging-indent pb-2">Blessed is the man whose desire is satisfied with them: he shall not be confounded when he speaketh with his enemies in the gate.</li>
+        
+          <li class="hanging-indent pb-2">Glory be to the Father, and to the Son, * and to the Holy Ghost.</li>
+        
+          <li class="hanging-indent pb-2">As it was in the beginning, is now, * and ever shall be, world without end. Amen.</li>
+        
+        </ul>
+      
+
+    
+    
+  
+    
+    
+      
+        <h3 class="text-base my-3 text-primary-600 dark:text-secondary-200 font-serif" id="psalm-127">Psalm 127</h3>
+      
+
+    
+    
+  
+    
+    
+
+      
+
+      
+
+      
+        <ul class="lang-english pb-4">
+        
+          <li class="hanging-indent pb-2">Blessed are all they that fear the Lord, that walk in His ways.</li>
+        
+          <li class="hanging-indent pb-2">For thou shalt eat the labors of thy hands: blessed art thou, and it shall be well with thee.</li>
+        
+          <li class="hanging-indent pb-2">Thy wife shall be as a fruitful vine on the walls of thy house.</li>
+        
+          <li class="hanging-indent pb-2">Thy children as olive plants, round about thy table.</li>
+        
+          <li class="hanging-indent pb-2">Behold, thus shall the man be blessed that feareth the Lord.</li>
+        
+          <li class="hanging-indent pb-2">May the Lord bless thee out of Sion, and mayest thou see the good things of Jerusalem all the days of thy life. </li>
+        
+          <li class="hanging-indent pb-2">Mayest thou see thy children&#39;s children, and peace upon Israel.</li>
+        
+          <li class="hanging-indent pb-2">Glory be to the Father, and to the Son, * and to the Holy Ghost.</li>
+        
+          <li class="hanging-indent pb-2">As it was in the beginning, is now, * and ever shall be, world without end. Amen.</li>
+        
+        </ul>
+      
+
+    
+    
+  
+    
+    
+      
+
+    
+    
+  
+    
+    
+
+      
+
+      
+
+      
+        <div class="lang-english">
+        
+          <p class="py-1"><i class="text-rubric-600 dark:text-rubric-500 px-1">Ant.</i> Behold the handmaid of the Lord, be it done unto me according to thy word.</p>
+        
+        </div>
+      
+
+    
+    
+  
+    
+    
+      
+
+    
+    
+  
+    
+    
+      
+        <h2 class="text-2xl my-3 text-primary-700 dark:text-secondary-200 font-serif" id="little-chapter">Little Chapter</h2>
+      
+
+    
+    
+  
+    
+    
+      
+
+    
+    
+  
+    
+    
+      
+
+    
+    
+  
+    
+    
+      
+        <h3 class="text-base italic my-3 text-rubric-600 dark:text-secondary-200 font-serif" id="isaiah-714-15">Isaiah 7:14-15</h3>
+      
+
+    
+    
+  
+    
+    
+
+      
+
+      
+      
+        
+          <p class="lang-english pb-3">Behold a virgin shall conceive, and shall bear a son; and His name shall be called Emmanuel. Butter and honey shall He eat, that He may know to refuse the evil, and to choose the good.</p>
+        
+          <p class="lang-english pb-3">℟ Thanks be to God.</p>
+        
+      
+
+    
+    
+  
+    
+    
+      
+
+    
+    
+  
+    
+    
+      
+      
+      
+        
+          <p class="lang-english pb-2">℣ The angel of the Lord declared unto Mary.</p>
+        
+          <p class="lang-english pb-2">℟ And she conceived of the Holy Ghost.</p>
+        
+      
+
+    
+    
+  
+    
+    
+      
+      
+      
+        
+          <p class="lang-english pb-2">Lord, have mercy on us.</p>
+        
+          <p class="lang-english pb-2">Christ, have mercy on us. Lord, have mercy on us.</p>
+        
+      
+
+    
+    
+  
+    
+    
+      
+        <h2 class="text-2xl my-3 text-primary-700 dark:text-secondary-200 font-serif" id="prayer">Prayer</h2>
+      
+
+    
+    
+  
+    
+    
+      
+      
+      
+        
+          <p class="lang-english pb-2">℣ O Lord, hear my prayer.</p>
+        
+          <p class="lang-english pb-2">℟ And let my cry come unto Thee.</p>
+        
+          <p class="lang-english pb-2">Let us pray.</p>
+        
+      
+
+    
+    
+  
+    
+    
+      
+
+    
+    
+  
+    
+    
+      
+      
+      
+        
+          <p class="lang-english pb-2">God, Who didst will that Thine eternal Word should take flesh in the womb of the Blessed Virgin Mary, when the angel delivered his message : grant that Thy petitioners, who verily believe her to be the Mother of God, may be assisted by her intercession with Thee. Through the same Jesus Christ, Thy Son, Our Lord, Who liveth and reigneth with Thee, in the unity of the Holy Ghost, God, world without end.</p>
+        
+          <p class="lang-english pb-2">Amen.</p>
+        
+      
+
+    
+    
+  
+    
+    
+      
+
+    
+    
+  
+    
+    
+      
+        <h2 class="text-2xl my-3 text-primary-700 dark:text-secondary-200 font-serif" id="conclusion">Conclusion</h2>
+      
+
+    
+    
+  
+    
+    
+      
+      
+      
+        
+          <p class="lang-english pb-2">℣ O Lord, hear my prayer.</p>
+        
+          <p class="lang-english pb-2">℟ And let my cry come unto Thee.</p>
+        
+          <p class="lang-english pb-2">℣ Let us bless the Lord.</p>
+        
+          <p class="lang-english pb-2">℟ Thanks be to God.</p>
+        
+          <p class="lang-english pb-2">℣ May the souls of the faithful departed, through the mercy of God, rest in peace.</p>
+        
+          <p class="lang-english pb-2">℟ Amen.</p>
+        
+      
+
+    
+    
+  
+    
+    
+      
+        <h2 class="text-2xl my-3 text-primary-700 dark:text-secondary-200 font-serif" id="prayers-after-the-office">Prayers After the Office</h2>
+      
+
+    
+    
+  
+    
+    
+      
+      
+      
+        
+          <p class="lang-english pb-2">To the most holy and undivided Trinity, to the manhood of our crucified Lord Jesus Christ, to the fruitful virginity of the most blessed and glorious Mary, ever a virgin, to the entire assembly of the saints, be ascribed everlasting praise, honor, power, and glory, by every creature; and to us be granted the remission of all our sins, world without end.</p>
+        
+          <p class="lang-english pb-2">℟ Amen.</p>
+        
+          <p class="lang-english pb-2">℣ Blessed is the Virgin Mary&#39;s womb, which bore the Son of the everlasting Father.</p>
+        
+          <p class="lang-english pb-2">℟ And blessed are the breasts which nourished Christ our Lord.</p>
+        
+      
+
+    
+    
+  
+    
+    
+      
+        <div class="text-xs italic pb-2 pt-2 text-rubric-600 dark:text-rubric-500 font-serif">Pater, Ave, and Credo, in silence.</div>
+      
+
+    
+    
+  
+    
+    
+      
+      
+      
+        
+          <p class="lang-english pb-2">Our Father, who art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread. And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation: But deliver us from evil. Amen.</p>
+        
+          <p class="lang-english pb-2">Hail Mary, full of grace; The Lord is with thee; Blessed art thou amongst women, And blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, Pray for us sinners, now and at the hour of our death. Amen.</p>
+        
+          <p class="lang-english pb-2">I believe in God, the Father almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord; who was conceived by the Holy Ghost, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried: he descended into hell; the third day he arose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father almighty: from thence he shall come to judge the living and the dead.  I believe in the Holy Ghost, the holy catholic Church, the communion of Saints, the forgiveness of sins. The resurrection of the body. And life everlasting. Amen.</p>
+        
+      
+
+    
+    
+  
+
+    <div class="block h-10 mb-10 mt-10"><a href="../sext/index.html#content-top" class="bg-primary-100 text-primary-700 hover:text-white hover:bg-primary-700 dark:bg-gray-600 dark:text-white dark:hover:bg-primary-300 dark:hover:text-gray-900 font-bold text-md rounded-md p-3 float-left noprint">← Sext</a> 
+         <a href="../vespers/index.html#content-top" class="bg-primary-100 text-primary-700 hover:text-white hover:bg-primary-700 dark:bg-gray-600 dark:text-white dark:hover:bg-primary-300 dark:hover:text-gray-900 font-bold text-md rounded-md p-3 float-right noprint">Vespers →</a></div>
+
+  
+   
+    
+      <div class="block mb-5">
+        <h3>Original Sources</h3>
+        <ul>
+        
+          <li class="ml-4 mb-2 list-decimal">
+            <a href="https://archive.org/details/littleofficeofbl00newy/page/242/mode/2up" target="_blank" class="italic underline">Little Office of the Blessed Virgin Mary - Benziger Brothers</a>  (1915) 
+          </li>
+        
+          <li class="ml-4 mb-2 list-decimal">
+            <a href="https://divinumofficium.com/cgi-bin/horas/Pofficium.pl?date1=11-20-2021&amp;command=prayNona&amp;version=Tridentine%201910&amp;testmode=regular&amp;lang2=English&amp;votive=C12" target="_blank" class="italic underline">Divinum Officium</a>  (1910) 
+          </li>
+        
+        </ul>
+      </div>
+    
+  
+
+  </div>
+
+</div>
+    </main>
+<div class="bg-primary-700 text-white dark:bg-primary-600 text-center p-3">
+    <p>Other Little Offices</p>
+    
+      <a href="https://www.littleofficeofthesacredheartofjesus.com/" title="" alt="" class="hover:underline md:mx-0 mx-4 noprint font-bold md:space-x-8 p-4 text-2xl md:text-3xl">Little Office of the Sacred Heart</a>
+    
+      <a href="https://www.littleofficeofdivinewrath.com/" title="" alt="" class="hover:underline md:mx-0 mx-4 noprint font-bold md:space-x-8 p-4 text-2xl md:text-3xl">Little Office of Divine Wrath</a>
+    
+</div>
+
+<div class="bg-primary-700 text-white dark:bg-primary-600 text-center p-3">
+
+    
+    <p class="text-lg"><strong>© 2021 by LOBVM.com</strong></p>
+    <p class="text-sm">(except for texts already in the public domain)</p>
+
+</div>
+
+  </body>
+
+<!-- Mirrored from www.lobvm.com/hours/roman/1910/office-2/en/none/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Jun 2024 22:12:51 GMT -->
+</html>
