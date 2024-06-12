@@ -30,7 +30,8 @@ body {
   margin: 0;
 }
 body {
-  font-family: "PP Mondwest" !important
+  font-family: "PP Mondwest" !important;
+  font-size: 1.4rem;
 }
 hr {
   height: 0;
