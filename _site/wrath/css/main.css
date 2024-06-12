@@ -26,6 +26,23 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
+
+.lang-english:before {
+  content:"†";
+  position: absolute;
+  width: 10px;
+  left: 50%;
+  margin-left: -5px;
+  top: 2rem;
+  font-family: Arial !important
+}
+
+.lang-english {
+
+  position: relative;
+  padding-top: 6rem;
+}
+
 body {
   margin: 0;
 }

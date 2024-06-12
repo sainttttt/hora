@@ -29,6 +29,24 @@ html {
 body {
   margin: 0;
 }
+
+.lang-english:before {
+  content:"†";
+  position: absolute;
+  width: 10px;
+  left: 50%;
+  margin-left: -5px;
+  top: 2rem;
+  font-family: Arial !important
+}
+
+.lang-english {
+
+  position: relative;
+  padding-top: 6rem;
+
+}
+
 body {
   font-family: "PP Mondwest" !important;
   font-size: 1.4rem;
