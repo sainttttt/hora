@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: "Digitany";
-    src: url("/fonts/Digitany.ttf") format("truetype");
+    src: url("../fonts/Digitany.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "PP Mondwest";
-    src: url("/fonts/PPMondwest-Regular.otf") format("opentype");
+    src: url("../fonts/PPMondwest-Regular.otf") format("opentype");
 }
 
 
