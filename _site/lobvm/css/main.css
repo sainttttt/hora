@@ -4,6 +4,19 @@
 ::after {
   box-sizing: border-box;
 }
+
+
+@font-face {
+    font-family: "Digitany";
+    src: url("/fonts/Digitany.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PP Mondwest";
+    src: url("/fonts/PPMondwest-Regular.otf") format("opentype");
+}
+
+
 html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -17,16 +30,7 @@ body {
   margin: 0;
 }
 body {
-  font-family:
-    system-ui,
-    -apple-system,
-    segoe ui,
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif,
-    apple color emoji,
-    segoe ui emoji;
+  font-family: "PP Mondwest" !important
 }
 hr {
   height: 0;
@@ -156,14 +160,13 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 html {
-  font-family: Mulish, system-ui;
+  font-family: "PP Mondwest";
   line-height: 1.5;
+  padding: 0.8rem;
 }
-body {
-  font-family: inherit;
-  line-height: inherit;
-}
+
 *,
 ::before,
 ::after {
@@ -278,7 +281,7 @@ ol {
 h2 {
   padding-top: 2rem;
   padding-bottom: 0.5rem;
-  font-family: Spartan, cursive;
+  font-family: "Digitany", cursive;
   font-size: 1.5rem;
   line-height: 2rem;
   --tw-text-opacity: 1;
@@ -291,7 +294,7 @@ h2 {
 h3 {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
-  font-family: Spartan, cursive;
+  font-family: "Digitany", cursive;
   font-size: 1.25rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
@@ -304,7 +307,7 @@ h3 {
 h4 {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
-  font-family: Spartan, cursive;
+  font-family: "Digitany", cursive;
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
