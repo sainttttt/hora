@@ -33,7 +33,7 @@ body {
   font-family: "PP Mondwest" !important;
   font-size: 1.4rem;
   background: #1c1c19;
-  color: rgb(166, 162, 157);
+  color: rgb(211 207 201);
 }
 hr {
   height: 0;
@@ -288,11 +288,12 @@ h2 {
   font-size: 1.5rem;
   line-height: 2rem;
   --tw-text-opacity: 1;
-  color: #600012
+  color: #8a0921;
+
 }
 .dark h2 {
   --tw-text-opacity: 1;
-  color: #600012;
+  color: #8a0921;
 }
 h3 {
   padding-top: 1rem;
@@ -301,11 +302,11 @@ h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
-  color: #600012;
+  color: #8a0921;
 }
 .dark h3 {
   --tw-text-opacity: 1;
-  color: #600012;
+  color: #8a0921;
 }
 h4 {
   padding-top: 1rem;
@@ -314,11 +315,11 @@ h4 {
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
-  color: #600012;
+  color: #8a0921;
 }
 .dark h4 {
   --tw-text-opacity: 1;
-  color: #600012;
+  color: #8a0921;
 }
 .primary-content-block a {
   --tw-text-opacity: 1;
