@@ -1,0 +1,18 @@
+HTTrack3.49-2 launched on Mon, 10 Jun 2024 05:59:15 at https://www.littleofficeofdivinewrath.com/
+(winhttrack https://www.littleofficeofdivinewrath.com/ -O "./wrath" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+05:59:29	Error: 	"Not Found" (404) at link https://www.littleofficeofdivinewrath.com/Loaded settings.js (from https://www.littleofficeofdivinewrath.com/)
+06:00:34	Error: 	"Not Found" (404) at link https://www.littleofficeofdivinewrath.com/introduction/Loaded settings.js (from https://www.littleofficeofdivinewrath.com/introduction/)
+06:04:00	Error: 	"Not Found" (404) at link https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/matins/Loaded settings.js (from https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/matins/)
+06:04:04	Error: 	"Not Found" (404) at link https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/lauds/Loaded settings.js (from https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/lauds/)
+06:04:06	Error: 	"Not Found" (404) at link https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/prime/Loaded settings.js (from https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/prime/)
+06:04:09	Error: 	"Not Found" (404) at link https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/terce/Loaded settings.js (from https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/terce/)
+06:04:11	Error: 	"Not Found" (404) at link https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/sext/Loaded settings.js (from https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/sext/)
+06:04:13	Error: 	"Not Found" (404) at link https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/none/Loaded settings.js (from https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/none/)
+06:04:15	Error: 	"Not Found" (404) at link https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/vespers/Loaded settings.js (from https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/vespers/)
+06:04:17	Error: 	"Not Found" (404) at link https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/compline/Loaded settings.js (from https://www.littleofficeofdivinewrath.com/hours/office-1/la-en/compline/)

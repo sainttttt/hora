@@ -1,0 +1,7 @@
+Mirror in progress since Mon, 10 Jun 2024 05:59:15 .. please wait!
+winhttrack https://www.littleofficeofdivinewrath.com/ -O "./wrath" -%v 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=16272
+UID=501
+GID=501
+START=1718013555
